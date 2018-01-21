@@ -1772,7 +1772,7 @@ body {
 }
 .cid-qHmBnKlgg3 {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-image: url("../../../assets/images/bacchus-marsh-main-st-2-1024x681.jpg");
 }
 .cid-qHmBnKlgg3 h4 {
@@ -1813,6 +1813,15 @@ body {
 .cid-qHmBnKlgg3 .card-box .mbr-section-btn a {
   margin-top: 1rem;
   margin-bottom: 0;
+}
+.cid-qHntY8qYVO {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-qHntY8qYVO .mbr-text,
+.cid-qHntY8qYVO blockquote {
+  color: #767676;
 }
 .cid-qHmBgj47Of {
   padding-top: 30px;
