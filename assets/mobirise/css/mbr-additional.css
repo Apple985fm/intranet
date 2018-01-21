@@ -1770,32 +1770,6 @@ body {
   color: #000000;
   text-align: center;
 }
-.cid-qHmuR0TgSg blink {
-  -webkit-animation: 2s linear infinite condemned_blink_effect;
-  animation: 2s linear infinite condemned_blink_effect;
-}
-@-webkit-keyframes condemned_blink_effect {
-  0% {
-    visibility: hidden;
-  }
-  50% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}
-@keyframes condemned_blink_effect {
-  0% {
-    visibility: hidden;
-  }
-  50% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}
 .cid-qHmBnKlgg3 {
   padding-top: 90px;
   padding-bottom: 45px;
@@ -2787,6 +2761,32 @@ body {
   padding-top: 90px;
   padding-bottom: 60px;
   background-image: url("../../../assets/images/mbr-1920x1080.jpg");
+}
+.cid-qHmEMGO1gl blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect;
+  animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 .cid-qHmF7AGwy7 {
   padding-top: 60px;
