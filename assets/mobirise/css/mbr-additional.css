@@ -1761,10 +1761,19 @@ body {
 .cid-qHmuR0TgSg {
   padding-top: 90px;
   padding-bottom: 90px;
+  background-image: url("../../../assets/images/mbr-1920x987.jpg");
+}
+.cid-qHmuR0TgSg H1 {
+  color: #ff0000;
+}
+.cid-qHmuR0TgSg H3 {
+  color: #000000;
+  text-align: center;
 }
 .cid-qHmBnKlgg3 {
   padding-top: 90px;
   padding-bottom: 90px;
+  background-image: url("../../../assets/images/bacchus-marsh-main-st-2-1024x681.jpg");
 }
 .cid-qHmBnKlgg3 h4 {
   font-weight: 500;
