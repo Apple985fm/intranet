@@ -61,7 +61,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.ws/o">best mobile website builder</a></section><section class="mbr-section info2 cid-qHmAaxHa6w" id="info2-3">
+<section class="engine"><a href="https://mobirise.ws/h">how to make your own website</a></section><section class="mbr-section info2 cid-qHmAaxHa6w" id="info2-3">
 
     
 
@@ -153,9 +153,29 @@ countdown()
 </script><br><br>
 
 <center><h1><strong>
-<script src="http://scripts.myradiostream.com/s23/13240/listeners.js"></script>
-    
-<script type="text/javascript" src="http://scripts.myradiostream.com/s23/13240/listeners.js"></script></strong></h1></center></h4>
+<?php
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "s23.myradiostream.com:13240/7.html");
+curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+$data = curl_exec($ch);
+curl_close($ch);
+$data = str_replace('  <input name="animation" type="hidden">
+  </body></html>', "", $data);
+$split = explode(',', $data);
+if (empty($data)) {
+	$listeners = 0;
+} else { 
+	if ($split[1] == "0") {
+		$listeners = 0;
+	} else {
+		$listeners = $split[0];
+	}
+}
+echo $listeners;
+?>   
+</strong></h1></center></h4>
                     
                     
                 </div>
@@ -245,6 +265,5 @@ countdown()
   <script src="assets/theme/js/script.js"></script>
   
   
-  <input name="animation" type="hidden">
-  </body>
+</body>
 </html>
