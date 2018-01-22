@@ -15,8 +15,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
@@ -60,7 +61,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.ws/p">open source web page creator</a></section><section class="mbr-section info2 cid-qHmAaxHa6w" id="info2-3">
+<section class="engine"><a href="https://mobirise.ws/n">mobile website creator app</a></section><section class="mbr-section info2 cid-qHmAaxHa6w" id="info2-3">
 
     
 
@@ -76,7 +77,7 @@
             </div>
             <div class="media-container-column title col-12 col-lg-7 col-md-6">
                 
-                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-5"><marquee behavior="scroll" direction="left">PhotoShoot on the 24th February 2017 </marquee>&nbsp;</h3>
+                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-5"><marquee behavior="scroll" direction="left">PhotoShoot on the 24th February 2018</marquee></h3>
             </div>
         </div>
     </div>
@@ -117,11 +118,41 @@
 
             <div class="card  col-12 col-md-6 col-lg-4">
                 <div class="card-img">
-                    <span class="mbri-desktop mbr-iconfont"></span>
+                    <span class="mbr-iconfont mbri-desktop" style="font-size: 87px;"></span>
                 </div>
                 <div class="card-box align-center">
                     <h4 class="card-title mbr-fonts-style display-7">
-                        Online Listeners</h4>
+                        Online Listeners                        
+                    <br><br>
+                        <font size="1">Refreshing in <span id="counter">53</span> seconds</font>
+<br>
+<script language="JavaScript">
+<!--
+var counterobj = document.all ? counter : document.getElementById("counter");
+
+var countdownfrom = 60;	//countdown period in seconds
+var currentsecond = counterobj.innerHTML = countdownfrom+1; 
+
+function countdown()
+{
+if (currentsecond!=1)
+{
+currentsecond-=1;
+counterobj.innerHTML = currentsecond;
+}
+else
+{
+self.location.reload();
+return;
+}
+setTimeout("countdown()",1000)
+}
+
+countdown()
+//-->
+</script><br><br>
+
+<center><h1><strong><script type="text/javascript" src="http://scripts.myradiostream.com/s23/13240/listeners.js"></script></strong></h1></center></h4>
                     
                     
                 </div>
@@ -131,11 +162,7 @@
                 <div class="card-img">
                     </div>
                 <div class="card-box align-center">
-                    <h4 class="card-title mbr-fonts-style display-7">
-                 
-                        
-                        Weather
-                    <br>
+                    <h4 class="card-title mbr-fonts-style display-7">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
                     <a class="weatherwidget-io" href="https://forecast7.com/en/n37d68144d45/bacchus-marsh/" data-label_1="Apple 98.5fm" data-label_2="Bacchus Marsh WEATHER" data-icons="Climacons Animated" data-days="5" data-theme="weather_one">Apple 98.5fm Bacchus Marsh WEATHER</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://weatherwidget.io/js/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","weatherwidget-io-js");
@@ -207,12 +234,14 @@
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
   
-</body>
+  <input name="animation" type="hidden">
+  </body>
 </html>
