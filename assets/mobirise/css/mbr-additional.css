@@ -1735,6 +1735,10 @@ body {
 .cid-qHmBnKlgg3 .card-img H1 {
   color: #59cf3c;
 }
+.cid-qHmBnKlgg3 .card-title,
+.cid-qHmBnKlgg3 .card-img B {
+  color: #cccccc;
+}
 .cid-qHmBgj47Of {
   padding-top: 30px;
   padding-bottom: 30px;
