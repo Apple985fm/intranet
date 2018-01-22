@@ -577,7 +577,7 @@
               }
             },
             ".card-title, .card-img H1": {
-              "color": "#ffffff"
+              "color": "#efefef"
             }
           },
           "_name": "features8",
