@@ -6285,7 +6285,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}\n\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
+          "_customHTML": "[radioforge url=\"http://s19.myradiostream.com:15392/;\" skin=\"kplayer\" codec=\"mp3\" radiotype=\"shoutcast\" introurl=\"\" welcome=\"\" autoplay=\"true\" lang=\"auto\" buffering=\"5\" volume=\"60\" width=\"220\" height=\"200\" title=\"\" artist=\"\"]\n<h2>Server is :{JS_CODE_0}</h2>\n{JS_CODE_1}\n\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -6295,7 +6295,8 @@
           "_anchor": "custom-html-28",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script src=\"//myradiostream.com/embed/Jefftabone\"></script>"
+            "<script src=\"http://scripts.myradiostream.com/s19/15392/status.js\"></script>",
+            "<script src=\"http://scripts.myradiostream.com/s19/15392/status.js?online=Live&offline=Off Air&nosource=On Air Soon\"></script>"
           ]
         },
         {
