@@ -595,9 +595,9 @@
           "_anchor": "features8-5",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script language=\"JavaScript\">\n<!--\nvar counterobj = document.all ? counter : document.getElementById(\"counter\");\n\nvar countdownfrom = 60;\t//countdown period in seconds\nvar currentsecond = counterobj.innerHTML = countdownfrom+1; \n\nfunction countdown()\n{\nif (currentsecond!=1)\n{\ncurrentsecond-=1;\ncounterobj.innerHTML = currentsecond;\n}\nelse\n{\nself.location.reload();\nreturn;\n}\nsetTimeout(\"countdown()\",1000)\n}\n\ncountdown()\n//-->\n<font color=\"white>\n\"</script>",
+            "<script language=\"JavaScript\">\n<!--\nvar counterobj = document.all ? counter : document.getElementById(\"counter\");\n\nvar countdownfrom = 60;\t//countdown period in seconds\nvar currentsecond = counterobj.innerHTML = countdownfrom+1; \n\nfunction countdown()\n{\nif (currentsecond!=1)\n{\ncurrentsecond-=1;\ncounterobj.innerHTML = currentsecond;\n}\nelse\n{\nself.location.reload();\nreturn;\n}\nsetTimeout(\"countdown()\",1000)\n}\n\ncountdown()\n//-->\n\n\"</script>",
             "<script src=\"https://scripts.myradiostream.com/s23/13240/listeners.js\"></script>",
-            "<script src=\"https://scripts.myradiostream.com/s23/13240/status.js?online=Streaming&offline=Not Streaming. Call Admin&nosource=Server is down. Call Admin\"></script>",
+            "<script src=\"http://scripts.myradiostream.com/s23/13240/status.js?online=Streaming&offline=Not Streaming.Call Admin&nosource=Server Down.Call Admin\"></script>",
             "<script>\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"https://weatherwidget.io/js/widget.min.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"weatherwidget-io-js\");\n</script>"
           ],
           "_protectedParams": [],
