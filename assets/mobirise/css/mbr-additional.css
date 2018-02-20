@@ -4743,8 +4743,8 @@ body {
   color: #f7ed4a !important;
 }
 .cid-qHmPnbEDOq {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 75px;
+  padding-bottom: 15px;
   background-color: #ff0000;
   background: linear-gradient(45deg, #ff0000, #59cf3c);
 }
@@ -4760,7 +4760,7 @@ body {
 .cid-qKaMFrfO4v {
   padding-top: 0px;
   padding-bottom: 15px;
-  background: linear-gradient(45deg, #dbd4b8, #25aab2);
+  background-image: url("../../../assets/images/mbr-4-1620x1080.jpg");
 }
 .cid-qKaMFrfO4v .btn {
   margin: 0 0 .5rem 0;
