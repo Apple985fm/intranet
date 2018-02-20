@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-01-21_2157",
-    "currentPage": "Docs.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -50,7 +50,7 @@
         "title": "Apple 98.5fm Intranet",
         "meta_descr": "",
         "header_custom": " <meta http-equiv=\"refresh\" content=\"60\">",
-        "footer_custom": "<script type=\"text/javascript\">\nvar $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || \n{widgetcode:\"00d639aa715bea4165196e276e2df6dcdd4416f31a4d700321780dd49726f0da\", values:{},ready:function(){}};\nvar d=document;s=d.createElement(\"script\");s.type=\"text/javascript\";s.id=\"zsiqscript\";s.defer=true;\ns.src=\"https://salesiq.zoho.com/widget\";t=d.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(s,t);d.write(\"<div id='zsiqwidget'></div>\");\n</script>",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
