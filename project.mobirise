@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-01-21_2157",
-    "currentPage": "index.html",
+    "currentPage": "Community.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -18,7 +18,7 @@
         "display2Font": "Rubik",
         "display2Size": 3,
         "display5Font": "Rubik",
-        "display5Size": 1.5,
+        "display5Size": "1.6",
         "display7Font": "Rubik",
         "display7Size": 1,
         "display4Font": "Rubik",
@@ -36,7 +36,7 @@
       ]
     },
     "versionFirst": "4.6.2",
-    "uniqCompNum": 82,
+    "uniqCompNum": 83,
     "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -50,7 +50,7 @@
         "title": "Apple 98.5fm Intranet",
         "meta_descr": "",
         "header_custom": " <meta http-equiv=\"refresh\" content=\"60\">",
-        "footer_custom": "",
+        "footer_custom": "\n<script type=\"text/javascript\">\nvar $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:\"00d639aa715bea4165196e276e2df6dcdd4416f31a4d700321780dd49726f0da\", values:{},ready:function(){}};var d=document;s=d.createElement(\"script\");s.type=\"text/javascript\";s.id=\"zsiqscript\";s.defer=true;s.src=\"https://salesiq.zoho.com/widget\";t=d.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(s,t);d.write(\"<div id='zsiqwidget'></div>\");\n</script>",
         "html_before": ""
       },
       "components": [
@@ -5228,6 +5228,32 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "info3",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fun-run-960x960.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Mt Warrenheip Mountain Fun Run</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">The Mt Warrenheip Mountain Fun Run is St Brendan’s Primary School in Dunnstown’ annual fundraising event, supported by Moorabol Shire\n<br>The Mt Warrenheip Mountain Fun Run are celebrating 20years&nbsp;<br><br>The Mountain of Fun Run consists of 2 courses - 12.5km run &amp; 6km run/walk.&nbsp;\n<div>The event is set amongst the picturesque landscape around Mt Warrenheip. Situated about 10 minutes east of Ballarat in Victoria, approximately 30 minutes drive from Bacchus Marsh and about a 1 hour drive from Melbourne, the event is easily accessible by car.<br><br>Come down and have and put Fun in Fundraising !<br><div><br></div></div></h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>\n                    The event is on 4th of March 2018\n                </p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.facebook.com/MountainOfFunRunWalk/\" target=\"_blank\">More Info</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qKbSKHzyax",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info3-2a"
         },
         {
           "_styles": {
